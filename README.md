@@ -1,23 +1,16 @@
-is GitHub up?
+Is GitHub up?
 =============
 
-on a good day:
+On a good day:
 
 ```sh
-$ is_github_up.rb
-yes
+./is_github_up.rb
+# => All Systems Operational
 ```
 
-on a bad day:
+On a bad day:
 
 ```sh
-$ is_github_up.rb
-no
-```
-
-on a cloudy day:
-
-```sh
-$ is_github_up.rb
-minor issues
+./is_github_up.rb
+# => Partial System Outage
 ```
